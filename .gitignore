@@ -1,0 +1,15 @@
+# Your career data stays on your machine: keep only the template under version control
+inventory/*.md
+!inventory/_template.md
+
+# Source documents (old resumes, extracted text)
+/source/
+
+# Build output
+cardfile_draft.txt
+*_draft.txt
+
+# Python and macOS
+__pycache__/
+*.pyc
+.DS_Store
